@@ -52,3 +52,12 @@ disini mesn rsyslog telah terinstall jadi tinggal install logstash untuk kirim d
 - download file kibana-install.sh wget https://raw.githubusercontent.com/otakterbelah/elasticsearch-cluster/main/install-kibana.sh 
 - chmod +x install-kibana.sh && ./install-kibana.sh
 - buka folder conf.d di /etc/logstash/conf.d/
+- download file rsyslog.conf wget https://raw.githubusercontent.com/otakterbelah/elasticsearch-cluster/main/rsyslog/logstash/conf/rsyslog.conf
+- buka folder rsyslog.conf cd /etc/rsyslog/rsyslog.conf download file 01-json-template.conf wget https://raw.githubusercontent.com/otakterbelah/elasticsearch-cluster/main/rsyslog/rsyslog.conf/01-json-template.conf 
+download file 60-output.conf wget https://raw.githubusercontent.com/otakterbelah/elasticsearch-cluster/main/rsyslog/rsyslog.conf/60-output.conf
+download file sudo wget https://raw.githubusercontent.com/otakterbelah/elasticsearch-cluster/main/rsyslog/rsyslog.conf/sudo
+- start logstash service systemctl start logstash.service && systemctl status logstash.service && systemctl enable logstash.service
+- restart rsyslog service
+- add di kibana dashboard index pattern rsyslog-prod*
+selesai
+
