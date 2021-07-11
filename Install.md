@@ -1,9 +1,9 @@
-setting /etc/hosts
-192.168.1.165 kibana
-192.168.1.32 logstash
-192.168.1.33 elastic-master
-192.168.1.34 elastic-node1 
-192.168.1.35 elastic-node2
+<p><l1>setting /etc/hosts</li></p>
+<p><l1>192.168.1.165 kibana</li></p>
+<p><l1>192.168.1.32 logstash</li></p>
+<p><l1>192.168.1.33 elastic-master</li></p>
+<p><l1>192.168.1.34 elastic-node1 </li></p>
+<p><l1>192.168.1.35 elastic-node2 </li></p>
 
 1. <b>install elasticsearch cluster</b>
 -  download installelasticsearch.sh
