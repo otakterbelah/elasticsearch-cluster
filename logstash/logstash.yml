@@ -255,7 +255,7 @@ path.logs: /var/log/logstash
 # https://www.elastic.co/guide/en/logstash/current/monitoring-logstash.html
 xpack.monitoring.enabled: true
 xpack.monitoring.elasticsearch.username: elastic
-xpack.monitoring.elasticsearch.password: Az2021W23456 
+xpack.monitoring.elasticsearch.password: changeme 
 #xpack.monitoring.elasticsearch.proxy: ["http://proxy:port"]
 xpack.monitoring.elasticsearch.hosts: ["https://192.168.1.33:9200", "https://192.168.1.34:9200", "https://192.168.1.35:9200"]
 # an alternative to hosts + username/password settings is to use cloud_id/cloud_auth
