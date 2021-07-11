@@ -1,5 +1,5 @@
 # elasticsearch-cluster
-Instal elasticsearch kibana dan logstash dengan Ubutu OS 18
+Install elasticsearch kibana dan logstash dengan Ubutu OS 18
 <img src="https://github.com/otakterbelah/elasticsearch-cluster/blob/main/elasticsearch.jpeg"></img>
 <table>
   <tr>
