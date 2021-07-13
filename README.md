@@ -38,7 +38,7 @@ Install elasticsearch kibana dan logstash dengan Ubutu OS 18
     <td>192.168.1.37</td>
   </tr>
 </table>
-untuk instalasi baca di <a href="https://raw.githubusercontent.com/otakterbelah/elasticsearch-cluster/main/Install.md">install.md</a>
+untuk instalasi baca di <a href="https://github.com/otakterbelah/elasticsearch-cluster/blob/main/Install.md">install.md</a>
 referensi:
 <p>https://kifarunix.com/setup-multi-node-elasticsearch-cluster/</p>
 <p>https://www.crybit.com/setup-a-three-node-elasticsearch-cluster-centos-7/</p>
